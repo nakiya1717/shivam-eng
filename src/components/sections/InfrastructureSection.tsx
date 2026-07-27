@@ -6,19 +6,19 @@ import Link from "next/link";
 
 const features = [
   {
-    title: "Advanced CNC Machines",
-    desc: "Our shop floor is equipped with the latest CNC turning centers capable of handling complex geometries with tight tolerances.",
-    image: "/real_photo5.jpg"
+    title: "Advanced CNC Turning Centers",
+    desc: "Equipped with high-performance LMW LX20 CNC Lathes, ensuring ultra-precision machining, rapid cycle times, and tight tolerances down to 10 microns.",
+    image: "/gallery_lmw.png"
   },
   {
-    title: "Inspection Equipment",
-    desc: "Quality is guaranteed through our advanced inspection lab featuring modern measurement instruments.",
+    title: "Rigorous Quality Control",
+    desc: "Our inspection facility utilizes calibrated Mitutoyo micrometers, vernier calipers, and bore gauges to guarantee flawless dimensional accuracy on every part.",
     image: "/real_photo1.jpg"
   },
   {
-    title: "Production Capacity",
-    desc: "We are equipped to handle both small batch runs and large volume OEM production with consistent quality.",
-    image: "/real_photo3.jpg"
+    title: "Versatile Material Handling",
+    desc: "Expertly machining a wide spectrum of materials including Stainless Steel (SS 304/316), Brass, Aluminum, Mild Steel, and specialized industrial alloys.",
+    image: "/cnc_parts_1.png"
   }
 ];
 
