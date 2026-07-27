@@ -5,10 +5,10 @@ import { motion } from "framer-motion";
 const images = [
   "/gallery_lmw.png",
   "/gallery_jobwork.png",
-  "/real_photo1.jpg",
-  "/real_photo4.jpg",
-  "/real_photo2.jpg",
-  "/work_photo2.png"
+  "/cnc_parts_1.png",
+  "/cnc_parts_2.png",
+  "/cnc_parts_3.png",
+  "/cnc_parts_4.png"
 ];
 
 export default function GallerySection() {
