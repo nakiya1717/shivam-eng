@@ -43,7 +43,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
         {/* Logo */}
-        <Link href="/#home" className="z-50" onClick={() => setIsMobileMenuOpen(false)}>
+        <Link href="/#home" className="relative z-[60]" onClick={() => setIsMobileMenuOpen(false)}>
           <Logo />
         </Link>
 
@@ -68,7 +68,7 @@ export default function Navbar() {
 
         {/* Mobile Menu Button */}
         <button
-          className="lg:hidden z-50 text-navy hover:text-primary transition-colors"
+          className="lg:hidden relative z-[60] text-navy hover:text-primary transition-colors"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
@@ -77,7 +77,7 @@ export default function Navbar() {
         {/* Mobile Nav Overlay */}
         <div
           className={cn(
-            "fixed inset-0 bg-white/95 backdrop-blur-2xl flex flex-col justify-center items-center gap-8 transition-all duration-300 lg:hidden",
+            "fixed top-0 left-0 w-full h-[100dvh] bg-white/95 backdrop-blur-2xl flex flex-col justify-center items-center gap-8 transition-all duration-300 lg:hidden",
             isMobileMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
           )}
         >
