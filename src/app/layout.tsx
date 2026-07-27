@@ -28,8 +28,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${poppins.variable} scroll-smooth`}>
-      <body className="min-h-screen flex flex-col font-sans bg-light text-dark selection:bg-primary selection:text-white">
+    <html lang="en" className={`${inter.variable} ${poppins.variable} scroll-smooth overflow-x-hidden`}>
+      <body className="min-h-screen flex flex-col font-sans bg-light text-dark selection:bg-primary selection:text-white overflow-x-hidden">
         <Navbar />
         <main className="flex-grow">
           {children}
